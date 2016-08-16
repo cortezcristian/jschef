@@ -1,0 +1,26 @@
+{
+  "name": "jschef",
+  "version": "1.0.0",
+  "description": "Let jschef do the work for you",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortezcristian/jschef.git"
+  },
+  "keywords": [
+    "jschef",
+    "project",
+    "mvc",
+    "mean",
+    "generator"
+  ],
+  "author": "Cristian Cortez <cortez.cristian@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cortezcristian/jschef/issues"
+  },
+  "homepage": "https://github.com/cortezcristian/jschef#readme"
+}
