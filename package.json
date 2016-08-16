@@ -1,0 +1,35 @@
+{
+  "name": "jschef",
+  "version": "0.0.1",
+  "description": "Let jschef do the work for you",
+  "main": "src/index.js",
+  "preferGlobal": true,
+  "bin": {
+    "jschef": "./src/index.js"
+  },
+  "scripts": {
+    "test": "mocha",
+    "patch-release": "npm version patch && npm publish && git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortezcristian/jschef.git"
+  },
+  "keywords": [
+    "jschef",
+    "project",
+    "mvc",
+    "mean",
+    "generator"
+  ],
+  "author": "Cristian Cortez <cortez.cristian@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cortezcristian/jschef/issues"
+  },
+  "homepage": "https://github.com/cortezcristian/jschef#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "shelljs": "^0.7.3"
+  }
+}
